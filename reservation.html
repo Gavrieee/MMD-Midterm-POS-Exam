@@ -1,0 +1,660 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<title>Tasty &mdash; Free Website Template, Free HTML5 Template by freehtml5.co</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Free HTML5 Website Template by freehtml5.co" />
+	<meta name="keywords"
+		content="free website templates, free html5, free template, free bootstrap, free website template, html5, css3, mobile first, responsive" />
+	<meta name="author" content="freehtml5.co" />
+
+	<!-- 
+	//////////////////////////////////////////////////////
+
+	FREE HTML5 TEMPLATE 
+	DESIGNED & DEVELOPED by FreeHTML5.co
+		
+	Website: 		http://freehtml5.co/
+	Email: 			info@freehtml5.co
+	Twitter: 		http://twitter.com/fh5co
+	Facebook: 		https://www.facebook.com/fh5co
+
+	//////////////////////////////////////////////////////
+	 -->
+
+	<!-- Facebook and Twitter integration -->
+	<meta property="og:title" content="" />
+	<meta property="og:image" content="" />
+	<meta property="og:url" content="" />
+	<meta property="og:site_name" content="" />
+	<meta property="og:description" content="" />
+	<meta name="twitter:title" content="" />
+	<meta name="twitter:image" content="" />
+	<meta name="twitter:url" content="" />
+	<meta name="twitter:card" content="" />
+
+	<link href="https://fonts.googleapis.com/css?family=Cormorant+Garamond:300,300i,400,400i,500,600i,700"
+		rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Satisfy" rel="stylesheet">
+
+	<link rel="stylesheet"
+		href="https://www.gamergeeks.net/apps/minecraft/web-developer-tools/css-blocks-and-entities/icons-minecraft-208.css">
+
+	<!-- Animate.css -->
+	<link rel="stylesheet" href="css/animate.css">
+	<!-- Icomoon Icon Fonts-->
+	<link rel="stylesheet" href="css/icomoon.css">
+	<!-- Bootstrap  -->
+	<link rel="stylesheet" href="css/bootstrap.css">
+
+	<!-- Flexslider  -->
+	<link rel="stylesheet" href="css/flexslider.css">
+	<!-- Date Time -->
+	<link rel="stylesheet" href="css/bootstrap-datetimepicker.min.css">
+
+	<!-- Theme style  -->
+	<link rel="stylesheet" href="css/style.css">
+
+	<!-- Modernizr JS -->
+	<script src="js/modernizr-2.6.2.min.js"></script>
+	<!-- FOR IE9 below -->
+	<!--[if lt IE 9]>
+	<script src="js/respond.min.js"></script>
+	<![endif]-->
+
+	<style>
+		body {
+			font-family: 'Minecraft' !important;
+		}
+
+		h1,
+		h2,
+		h3,
+		h4 {
+			font-family: 'Minecraft' !important;
+
+		}
+
+		a {
+			font-family: 'Minecraft' !important;
+		}
+
+		.item-name {
+			font-family: 'Minecraft' !important;
+			color: white;
+		}
+
+		.menu-item {
+			background-color: rgba(0, 0, 0, 0.3) !important;
+			padding: 20px !important;
+			display: flex;
+			flex-direction: column;
+			height: 100%;
+			/* Ensures all items grow the same size */
+			margin-bottom: 20px !important;
+		}
+
+		.fh5co-item {
+			display: flex;
+			flex-direction: column;
+			/* Stack the items vertically */
+			justify-content: space-between;
+			/* Ensure equal distribution of space */
+			height: 100%;
+			/* Ensures the item stretches to fill the available space */
+
+		}
+
+		.display-center {
+			text-align: center;
+
+		}
+
+		#order-process {
+			display: flex;
+		}
+
+		.input-container input,
+		.input-container button {
+			flex-grow: 1;
+			/* Makes the input and button flexible */
+		}
+
+
+		.input-container {
+			margin-top: 10px;
+			display: flex;
+			/* Make the container a flexbox */
+			justify-content: flex-start;
+			/* Optional: aligns the input to the left, you can use center or space-between as needed */
+			align-items: center;
+			/* Optional: aligns the input vertically centered */
+			width: 100%;
+			/* Ensure the container takes up the full width */
+			gap: 10px;
+			/* Optional: adds space between the input and button */
+		}
+
+		.flexible-input {
+			flex-grow: 1;
+			height: 36px;
+			/* Makes the input grow and fill the available space */
+			width: 100%;
+			/* Optional: Ensures it takes 100% width of its container */
+			padding: 10px;
+			/* Adjusts the padding inside the input */
+			font-size: 16px;
+			/* Optional: Adjusts the font size */
+			color: black;
+		}
+
+		.img {
+			width: 70%;
+			height: auto;
+			/* Ensures the image is responsive */
+		}
+
+		.orderBttn {
+			background-color: gray !important;
+			color: white !important;
+		}
+
+		.orderBttn:hover {
+			background-color: red !important;
+		}
+
+		.order-process {
+			padding: 0px 10px !important;
+			margin-bottom: 10px !important;
+			color: black !important;
+		}
+
+		.order-section {
+
+			background-color: rgba(255, 255, 255) !important;
+			padding: 20px !important;
+			margin-top: 20px !important;
+		}
+
+		.order-payment-section {
+			color: gray !important;
+			display: flex;
+			flex-direction: column;
+			/* Stack elements vertically */
+			align-items: center;
+			/* Center horizontally */
+			justify-content: center;
+			/* Center vertically if needed */
+
+		}
+
+		.triangle {
+			width: 0;
+			height: 0;
+			border-left: 80px solid transparent;
+			border-right: 80px solid transparent;
+			border-top: 60px solid rgba(255, 255, 255);
+			/* Triangle color */
+		}
+
+		.image {
+			width: 60%;
+			/* Adjust image width */
+			margin-top: 10px;
+			/* Space between the triangle and the image */
+			transform: translateY(-30%);
+			z-index: -1;
+			/* Place the image behind the triangle */
+		}
+	</style>
+
+</head>
+
+<body>
+
+	<div class="fh5co-loader"></div>
+
+	<div id="page">
+		<nav class="fh5co-nav" role="navigation">
+			<!-- <div class="top-menu"> -->
+			<div class="container">
+				<div class="row">
+					<div class="col-xs-12 text-center logo-wrap">
+						<div id="fh5co-logo"><a href="index.html">Tasty<span>.</span></a></div>
+					</div>
+					<div class="col-xs-12 text-center menu-1 menu-wrap">
+						<ul>
+							<li><a href="index.html">Home</a></li>
+							<li><a href="menu.html">Menu</a></li>
+
+							<li class="active"><a href="reservation.html">Reservation</a></li>
+							<li><a href="about.html">About</a></li>
+							<li><a href="contact.html">Contact</a></li>
+						</ul>
+					</div>
+				</div>
+
+			</div>
+			<!-- </div> -->
+		</nav>
+
+		<header id="fh5co-header" class="fh5co-cover js-fullheight" role="banner"
+			style="background-image: url(images/Cafe-Hero1.png);" data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 text-center">
+						<div class="display-t js-fullheight">
+							<div class="display-tc js-fullheight animate-box" data-animate-effect="fadeIn">
+								<h1>Reserve a Table!</h1>
+								<h2>Brought to you by <a href="http://freehtml5.co/" target="_blank">freehtml5.co</a>
+								</h2>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<div class="minecraft-background-image"></div>
+
+
+		<div id="fh5co-featured-menu" class="fh5co-section">
+			<div class="container">
+				<div class="row">
+
+					<div class="col-md-12 fh5co-heading animate-box">
+						<h2>Reservation</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p><i>"Ready to checkout? Your culinary loot awaits!"</i></p>
+								<p>
+									This is your <b>Point of Sale (POS)</b> hub—where delicious Minecraft-inspired
+									dishes jump
+									from menu to minecart. <br>Simply:
+								<ol>
+									<li><b>Add items</b> to your order (no pickaxe required)</li>
+									<li><b>Review your haul</b> in the cart below</li>
+									<li><b>Process payment</b> with emeralds... or regular currency</li>
+								</ol>
+								</p>
+
+								<p>
+									<i>Pro Tip</i>: Need to split the bill with your party? Ask our staff about
+									<b>"Villager
+										Trading"</b> mode for group payments!
+								</p>
+							</div>
+						</div>
+					</div>
+
+
+					<!-- Menu Section -->
+					<div class="col-md-8">
+						<div class="row">
+							<!-- Wrap each menu-item in col-md-6 or col-lg-4 for responsiveness -->
+							<div class="col-md-6 col-lg-4 fh5co-item-wrap">
+
+								<div class="fh5co-item animate-box">
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Enchanted_Golden_Apple_JE2_BE2.gif" class="img"
+												alt="Golden Apple Pie">
+										</div>
+
+										<h3 data-price="8.99" class="item-name">Golden Apple Pie</h3>
+										<p class="item-desc">Gilded caramel apple with +5 HP regen</p>
+										<span class="fh5co-price price">$5<sup>.50</sup></span>
+
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Golden_Carrot.png" class="img" alt="Golden Carrot">
+										</div>
+
+										<h3 data-price="4.99" class="item-name">Golden Carrot</h3>
+										<p class="item-desc">Honey-glazed, night-vision optional</p>
+										<p class="fh5co-price price">$4.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Baked_Potato.png" class="img" alt="Baked Potato">
+										</div>
+
+										<h3 data-price="5.99" class="item-name">Baked Potato</h3>
+										<p class="item-desc">Loaded with Netherwart bacon bits</p>
+										<p class="fh5co-price price">$5.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!-- Repeat above div for each menu-item -->
+							<div class="col-md-6 col-lg-4 fh5co-item-wrap">
+								<div class="fh5co-item animate-box">
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Cooked_Mutton.png" class="img" alt="Cooked Mutton">
+										</div>
+
+										<h3 data-price="12.99" class="item-name">Cooked Mutton</h3>
+										<p class="item-desc">Herb-crusted lamb chop, wolf-approved</p>
+										<p class="fh5co-price price">$12.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+
+									</div>
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Cooked_Chicken.png" class="img" alt="Cooked Chicken">
+										</div>
+
+										<h3 data-price="10.99" class="item-name">Cooked Chicken</h3>
+										<p class="item-desc">Crispy, no salmonella risk</p>
+										<p class="fh5co-price price">$10.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Cooked_Rabbit.png" class="img" alt="Cooked Rabbit">
+										</div>
+
+										<h3 data-price="13.99" class="item-name">Cooked Rabbit</h3>
+										<p class="item-desc">Tender with berry glaze (bunny not included)</p>
+										<p class="fh5co-price price">$13.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+
+								</div>
+							</div>
+							<div class="col-md-6 col-lg-4 fh5co-item-wrap">
+								<div class="fh5co-item animate-box">
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Cake.png" class="img" alt="Cake">
+										</div>
+
+										<h3 data-price="6.99" class="item-name">Cake</h3>
+										<p class="item-desc">Vanilla sponge (not a lie!)</p>
+										<p class="fh5co-price price">$6.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+
+									<div class="menu-item">
+										<div class="fh5co-item animate-box">
+											<div class="display-center">
+												<img src="images/Cookie.png" class="img" alt="Cookie">
+											</div>
+
+											<h3 data-price="3.99" class="item-name">Cookie</h3>
+											<p class="item-desc">Chocolate chip, creeper-face optional</p>
+											<p class="fh5co-price price">$3.99</p>
+											<div class="input-container">
+												<input type="number" class="item-quantity flexible-input" value="1"
+													min="1">
+												<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+											</div>
+										</div>
+									</div>
+
+									<div class="menu-item">
+										<div class="display-center">
+											<img src="images/Rabbit_Stew.png" class="img" alt="Rabbit Stew">
+										</div>
+										<h3 data-price="11.99" class="item-name">Rabbit Stew</h3>
+										<p class="item-desc">Hearty stew with +jump boost</p>
+										<p class="fh5co-price price">$11.99</p>
+										<div class="input-container">
+											<input type="number" class="item-quantity flexible-input" value="1" min="1">
+											<button onclick="addToOrder(this)" class="orderBttn">Order</button>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</div>
+					</div>
+
+					<!-- Order Section -->
+					<div class="col-md-4 order-payment-section">
+						<div class="order-section">
+							<h2><b>Your MineCart</b> <i class="icon-minecraft icon-minecraft-minecart"></i></h2>
+							<ul id="orderedItems"></ul>
+							<h3 style="margin-top: 20px;">Total: <span style="color: #ffdd00;">$<span
+										id="orderTotal">0.00</span></span></h3>
+							<div class="input-container">
+								<input type="number" id="paymentInput" class="order-process"
+									placeholder="Enter payment amount">
+								<button id="payButton" class="order-process orderBttn" onclick="processPayment()">
+									Pay</button>
+							</div>
+						</div>
+
+						<div class="triangle"></div>
+						<img src="images/minecart-order.png" alt="Minecart" class="image">
+
+					</div>
+				</div>
+
+			</div>
+		</div>
+
+
+
+
+		<div id="fh5co-featured-testimony" class="fh5co-section">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12 fh5co-heading animate-box">
+						<h2>Testimony</h2>
+						<div class="row">
+							<div class="col-md-6">
+								<p><i>"At MineCafe, we don't just serve food—we craft experiences worthy of an
+										achievement unlock! From hardcore survivalists to creative mode foodies, our
+										guests (and a few surprise mobs) have left their honest reviews. Want to know if
+										our Golden Apple is truly 'enchanted' or if the Rabbit Stew passes a
+										Michelin-starred taste test? Read on—no enchanted book required!"</i></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-md-5 animate-box img-to-responsive">
+						<img src="images/gordon-ramsay-minecraft.png" class="fading-image" alt="">
+					</div>
+					<div class="col-md-7 animate-box">
+						<blockquote>
+							<p style="font-size: 34px; line-height: 40px;"> &ldquo; Finally, a cafe that doesn't serve
+								raw chicken! MineCafe's Enchanted Golden Apple is
+								bloody
+								brilliant—it's so good, I'd trade a diamond sword for the recipe.
+								And the Rabbit Stew? 'Delicious' doesn't even cover it. If you serve me one more
+								'suspicious' stew, though, I'm flipping tables like an Enderman! &rdquo;</p>
+							<p class="author" style="font-size: 28px; line-height: 40px;"><cite>&mdash; Gordon
+									Ramsay</cite> <i>(Michelin-Starred Chef & Part-Time
+									Nether Critic)</i></p>
+						</blockquote>
+					</div>
+				</div>
+			</div>
+		</div>
+
+
+		<div id="fh5co-started" class="fh5co-section animate-box" style="background-image: url(images/Cafe-Hero3.png);"
+			data-stellar-background-ratio="0.5">
+			<div class="overlay"></div>
+			<div class="container">
+				<div class="row animate-box">
+					<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
+						<h2>Book a Table</h2>
+						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae enim quae vitae
+							cupiditate, sequi quam ea id dolor reiciendis consectetur repudiandae. Rem quam, repellendus
+							veniam ipsa fuga maxime odio? Eaque!</p>
+						<p><a href="reservation.html" class="btn btn-primary btn-outline">Book Now</a></p>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<footer id="fh5co-footer" role="contentinfo" class="fh5co-section">
+			<div class="container">
+				<div class="row row-pb-md">
+					<div class="col-md-4 fh5co-widget">
+						<h4>Tasty</h4>
+						<p>The ultimate culinary adventure from the Overworld to your plate! We craft pixel-perfect
+							dishes and blocky brews that fuel your inner explorer. Whether you're a hardcore survivalist
+							or creative mode foodie, every visit unlocks delicious achievements.</p>
+					</div>
+					<div class="col-md-2 col-md-push-1 fh5co-widget">
+						<h4>Links</h4>
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Home</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Menu</a></li>
+							<li><a href="#">Gallery</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-2 col-md-push-1 fh5co-widget">
+						<h4>Categories</h4>
+						<ul class="fh5co-footer-links">
+							<li><a href="#">Landing Page</a></li>
+							<li><a href="#">Real Estate</a></li>
+							<li><a href="#">Personal</a></li>
+							<li><a href="#">Business</a></li>
+							<li><a href="#">e-Commerce</a></li>
+						</ul>
+					</div>
+
+					<div class="col-md-4 col-md-push-1 fh5co-widget">
+						<h4>Contact Information</h4>
+						<ul class="fh5co-footer-links">
+							<li>198 West 21th Street, <br> Suite 721 New York NY 10016</li>
+							<li><a href="tel://1234567920">+ 1235 2355 98</a></li>
+							<li><a href="mailto:info@yoursite.com">info@yoursite.com</a></li>
+							<li><a href="http://https://freehtml5.co">freehtml5.co</a></li>
+						</ul>
+					</div>
+
+				</div>
+
+				<div class="row copyright">
+					<div class="col-md-12 text-center">
+						<p>
+							<small class="block">&copy; 2016 Free HTML5. All Rights Reserved.</small>
+							<small class="block">Designed by <a href="http://freehtml5.co/"
+									target="_blank">FreeHTML5.co</a> Demo Images: <a href="http://unsplash.co/"
+									target="_blank">Unsplash</a></small>
+						</p>
+						<p>
+						<ul class="fh5co-social-icons">
+							<li><a href="#"><i class="icon-twitter2"></i></a></li>
+							<li><a href="#"><i class="icon-facebook2"></i></a></li>
+							<li><a href="#"><i class="icon-linkedin2"></i></a></li>
+							<li><a href="#"><i class="icon-dribbble2"></i></a></li>
+						</ul>
+						</p>
+					</div>
+				</div>
+
+			</div>
+		</footer>
+	</div>
+
+	<div class="gototop js-top">
+		<a href="#" class="js-gotop"><i class="icon-arrow-up22"></i></a>
+	</div>
+
+	<!-- jQuery -->
+	<script src="js/jquery.min.js"></script>
+	<!-- jQuery Easing -->
+	<script src="js/jquery.easing.1.3.js"></script>
+	<!-- Bootstrap -->
+	<script src="js/bootstrap.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.waypoints.min.js"></script>
+	<!-- Waypoints -->
+	<script src="js/jquery.stellar.min.js"></script>
+	<!-- Flexslider -->
+	<script src="js/jquery.flexslider-min.js"></script>
+
+	<!-- Date Time -->
+	<script src="js/moment.min.js"></script>
+	<script src="js/bootstrap-datetimepicker.js"></script>
+
+
+	<!-- Main -->
+	<script src="js/main.js"></script>
+
+	<script>
+		let runningTotal = 0.00;
+
+		function addToOrder(button) {
+			const menuItem = button.closest('.menu-item');
+			const name = menuItem.querySelector('.item-name').textContent;
+			const price = parseFloat(menuItem.querySelector('.item-name').dataset.price);
+			const quantity = parseFloat(menuItem.querySelector('.item-quantity').value);
+			const total = price * quantity;
+
+			const orderedItemsList = document.getElementById('orderedItems');
+			const itemCart = document.createElement('li');
+			itemCart.textContent = `${name} x${quantity} - $${total.toFixed(2)}`;
+			orderedItemsList.appendChild(itemCart);
+
+			runningTotal += total;
+			document.getElementById("orderTotal").textContent = runningTotal.toFixed(2);
+			menuItem.querySelector('.item-quantity').value = 1;
+		}
+
+		function processPayment() {
+			const paymentAmount = parseFloat(document.getElementById('paymentInput').value);
+
+			if (isNaN(paymentAmount)) {
+				alert('Please enter a valid payment amount.');
+				return;
+			}
+
+			if (paymentAmount >= runningTotal) {
+				const change = paymentAmount - runningTotal;
+				alert(`Payment successful! Change: $${change.toFixed(2)}`);
+				document.getElementById('orderedItems').innerHTML = '';
+				document.getElementById('orderTotal').textContent = '0.00';
+				runningTotal = 0;
+				document.getElementById('paymentInput').value = '';
+			} else {
+				alert(`Insufficient payment. Please add $${(runningTotal - paymentAmount).toFixed(2)} more.`);
+			}
+		}
+	</script>
+
+</body>
+
+</html>
